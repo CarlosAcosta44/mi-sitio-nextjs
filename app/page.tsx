@@ -3,12 +3,14 @@
 
 import HeroSection from "@/components/HeroSection";
 import { heroImage } from "@/lib/data";
+import ContactForm from "@/components/ContactForm";
 
 export default function HomePage() {
   return (
     <>
       <HeroSection imageSrc={heroImage.src} imageAlt={heroImage.alt} />
       {/* Las demás secciones se agregarán en features posteriores */}
+      <ContactForm />
     </>
   );
 }
