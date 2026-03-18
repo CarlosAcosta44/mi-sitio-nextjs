@@ -12,9 +12,9 @@ export default function HomePage() {
     <>
       <HeroSection imageSrc={heroImage.src} imageAlt={heroImage.alt} />
       {/* Las demás secciones se agregarán en features posteriores */}
-      <ContactForm />
       <Gallery/>
       <BlogSection />
+       <ContactForm />
     </>
   );
 }
